@@ -76,26 +76,39 @@
 }
 
 @media (max-width: 480px) {
-  .navbar-container {
+  .navbar {
+    padding: 5px 10px;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
   .nav-links {
     display: flex;
-    gap: 0.8rem;
+    justify-content: center; 
+    align-items: center;
+    gap: 0.6rem; 
+    flex-wrap: nowrap;
   }
 
   .nav-links a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
+    white-space: nowrap; 
   }
 
   .language-switcher {
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
   }
 
   .language-switcher button {
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.5rem;
     font-size: 0.75rem;
   }
 }
