@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "nosotros": "Nosotros",
+    "servicios": "Servicios y Productos",
+    "empresas": "Clientes",
+    "contacto": "Contacto"
+  },
+  "landingHeader": {
+    "title": "Saneamiento Integral",
+    "subtitle": "Soluciones Ambientales para un Futuro Sostenible",
+    "button": "Conoce más sobre nosotros →"
+  },
+  "nosotros": {
+    "title": "Nosotros y nuestra historia",
+    "paragraph": "Desde nuestra fundación en noviembre de 2019 como INTEGRAL CUYO hemos enfocado nuestros esfuerzos en brindar soluciones integrales de saneamiento ambiental que contribuyeran a un desarrollo sostenible y seguro para los Sanjuaninos. Desde entonces, hemos trabajado incansablemente para satisfacer las necesidades de diversas industrias, comercios y particulares; ofreciendo productos y servicios técnicamente avanzados y especializados.",
+    "en2022": "Consolidamos formalmente nuestra sociedad bajo la empresa CUYO TRADING SAS, afianzando nuestras operaciones y ampliando nuestra capacidad para proveer servicios y productos innovadores.",
+    "en2023": "Establecimos una asociación estratégica con PREVENCIÓN MATAFUEGOS, orientada a la implementación y mantenimiento de sistemas de protección contra incendios.",
+    "en2024": "Fortalecimos nuestra presencia en el mercado mediante alianzas con HEN S.R.L y WELDERLAS, diversificando nuestra oferta de servicios y productos, brindando soluciones eficientes y de alto valor.",
+    "en2025": "Afianzamos nuestra experiencia bajo nuestra nueva marca comercial SANEAMIENTO INTEGRAL. Consolidando nuestra dedicación a la sustentabilidad ambiental, promoviendo prácticas responsables y desarrollando soluciones innovadoras que aseguren la protección y el bienestar de nuestros clientes y del entorno en el que operan.",
+    "growth": "Consolidación y Crecimiento",
+    "associated": "Nuestras empresas asociadas",
+    "members": "Formamos parte de"
+},
+  "servicios": {
+    "title": "Servicios y productos",
+    "items": {
+      "saneamientoAmbiental": {
+        "title": "Saneamiento Ambiental",
+        "description": "Proveemos soluciones integrales con nuestros servicios y productos para distintas industrias, asegurando ambientes limpios, seguros y saludables con protocolos certificados.\n• Venta de Productos Químicos como: Ácido Acético, Sulfúrico, Bórico, Nítrico, Cítrico, Clorhídrico; Borax; Sanitizante; Productos para piscina; entre otros."
+      },
+      "manejoPlagas": {
+        "title": "Manejo de Plagas",
+        "description": {
+        "intro": "Nos destacamos por implementar el \"Mejor Plan\" de control capaz de mantener especies de plagas por debajo del umbral de tolerancia, explotando en primer lugar los recursos naturales y utilizando posteriormente métodos integrados de lucha compatibles con el medio ambiente.",
+        "methodsTitle": "PRINCIPALES MÉTODOS",
+        "methods": {
+      "biologicos": {
+        "title": "BIOLÓGICOS",
+        "description": "Utilizar organismos vivos con objeto de controlar sin utilizar productos químicos."
+      },
+      "fisicos": {
+        "title": "FÍSICOS",
+        "description": "Trampas de captura UV / adhesivas / cortinas sanitarias, etc."
+      },
+      "culturales": {
+        "title": "CULTURALES",
+        "description": "Capacitaciones para operarios y mandos a la gerencia, informes y estadísticas."
+      },
+      "quimicos": {
+        "title": "QUÍMICOS",
+        "description": "Tratamientos de aspersión eléctrica. Termoneblina. Anillos de monitoreo equipados con cebaderas para roedores."
+      }
+    }
+    }
+    },
+      "seguridadContraIncendios": {
+        "title": "Seguridad Contra Incendios",
+        "description": "En la Div. de Seguridad nos dedicamos a la venta y recarga de Matafuegos, así como a la prestación de servicios destinados a la preservación de vidas y bienes.\nPara ello contamos con Elementos de protección personal, instrumentos de medición de incendios para edificios, elementos de señalética, botiquines y una gran variedad de productos más."
+      },
+      "ingenieria": {
+        "title": "Ingeniería",
+        "description": "Servicios de Mano de Obra e Ingeniería de Detalle para la industria Metalúrgica; Mano de obra calificada para las áreas de Electricidad, Refrigeración, y Construcción Civil."
+      }
+  }
+},
+  "empresas": {
+  "title": "Algunas organizaciones que confían en nosotros",
+  "organismosTitle": "Organismos Estatales",
+  "empresasTitle": "Empresas",
+  "saludTitle": "Instituciones de Salud",
+  "minerasTitle": "Empresas Mineras",
+  "organismos": [
+    "Municipalidad Capital",
+    "Municipalidad de San Martín",
+    "Municipalidad de Rawson",
+    "Municipalidad de Chimbas",
+    "Tribunales Federales De San Juan",
+    "Policía de la Provincia de San Juan",
+    "Teatro del Bicentenario"
+  ]
+},
+  "contacto": {
+    "title": "Contacto"
+  },
+  "footer": {
+    "text": "© 2025 Saneamiento Integral. Todos los derechos reservados."
+  }
+}
