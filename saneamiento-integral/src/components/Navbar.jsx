@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import i18next from '../i18n'; 
@@ -8,12 +8,20 @@ import { usePathname, useSearchParams, useRouter } from 'next/navigation';
 import '../css/navbar.css';
 
 const Navbar = () => {
+  return (
+    <Suspense fallback={<div>Cargando...</div>}>
+      <NavbarContent />
+    </Suspense>
+  );
+};
+
+const NavbarContent = () => {
   const { t } = useTranslation('common');
   
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const currentLocale = searchParams.get('lang') || 'es';
+  const currentLocale = searchParams?.get('lang') || 'es';
 
   const changeLanguage = async (lang) => {
     if (i18next && i18next.changeLanguage) { 
