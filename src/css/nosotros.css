@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 480px) {
+  .nosotros-section {
+    padding: 10px;
+  }  
   .nosotros-card {
     padding: 1.1rem;
   }
