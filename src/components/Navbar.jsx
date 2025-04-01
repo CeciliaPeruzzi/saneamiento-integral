@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import i18next from '../i18n'; 
 import { usePathname, useSearchParams, useRouter } from 'next/navigation';
-import { FaBars } from 'react-icons/fa';  // Importamos el ícono de menú hamburguesa
+import { FaBars } from 'react-icons/fa'; 
 import '../css/navbar.css';
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
 
 const NavbarContent = () => {
   const { t } = useTranslation('common');
-  const [isOpen, setIsOpen] = useState(false); // Controlar la visibilidad del menú hamburguesa
+  const [isOpen, setIsOpen] = useState(false);
   
   const router = useRouter();
   const pathname = usePathname();
@@ -45,12 +45,12 @@ const NavbarContent = () => {
           <Image src="/images/logos.png" alt="Saneamiento Integral" width={70} height={60} />
         </div>
 
-        {/* Menú hamburguesa visible solo en mobile */}
+        
         <div className="mobile-menu-icon" onClick={toggleMenu}>
           <FaBars size={24} />
         </div>
 
-        {/* Links de navegación */}
+        
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><a href="#nosotros" onClick={toggleMenu}>{t('navbar.nosotros')}</a></li>
           <li><a href="#servicios" onClick={toggleMenu}>{t('navbar.servicios')}</a></li>
@@ -58,7 +58,7 @@ const NavbarContent = () => {
           <li><a href="#contacto" onClick={toggleMenu}>{t('navbar.contacto')}</a></li>
         </ul>
 
-        {/* Selector de idioma */}
+        
         <div className="language-switcher">
           <button onClick={() => changeLanguage('es')} className={currentLocale === 'es' ? 'active' : ''}>ES</button>
           <button onClick={() => changeLanguage('en')} className={currentLocale === 'en' ? 'active' : ''}>EN</button>
